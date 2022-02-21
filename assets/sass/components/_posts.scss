@@ -1,8 +1,8 @@
 /* Posts */
 
 .post-row {
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
     width: 100%;
 
     time {
@@ -10,9 +10,9 @@
         flex: 0 0 65px;
     }
 
-    h3 {
-        flex: 1;
-    }
+    // h3 {
+    //     flex: 1;
+    // }
 }
 
 .posts .post:last-of-type a {
