@@ -6,6 +6,7 @@
             {{ with .Content }}
             {{ . }}
             {{ end }}
+            <p>{{ site.Params.siteDescription }}</p>
             <div class="bio-social">
                 {{ range $name, $path := $.Param "socialOptions" }}
                 {{ if (and $path (ne $name "email")) }}
