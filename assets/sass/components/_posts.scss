@@ -67,7 +67,11 @@
         flex: 0 0 4rem;
     }
 
-    .summary {
-        opacity: 0.8;
-    }
+}
+
+
+.summary p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-top: 0.2rem;
 }
