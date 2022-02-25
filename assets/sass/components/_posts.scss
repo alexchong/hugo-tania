@@ -3,6 +3,8 @@
 .post-row {
     // display: flex;
     // align-items: center;
+    color: var(--medium-font-color);
+
     width: 100%;
 
     time {
@@ -40,6 +42,14 @@
     }
 }
 
+@media screen and (min-width: 300px) {
+    .summary p {
+        font-size: 0.8rem;
+        opacity: 0.8;
+        margin-top: 0.2rem;
+    }
+}
+
 
 @media screen and (min-width: 800px) {
     .posts {
@@ -67,11 +77,9 @@
         flex: 0 0 4rem;
     }
 
-}
-
-
-.summary p {
-    font-size: 0.9rem;
-    opacity: 0.8;
-    margin-top: 0.2rem;
+    .summary p {
+        font-size: 0.9rem;
+        opacity: 0.8;
+        margin-top: 0.2rem;
+    }
 }

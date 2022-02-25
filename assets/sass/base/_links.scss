@@ -1,8 +1,12 @@
 /* Links */
 
 a {
-    color: inherit;
+    color: #f21368;
     text-decoration: none;
+
+    &:hover {
+        color: #f54e8e;
+    }
 
     &.image-link {
         border-width: 0;

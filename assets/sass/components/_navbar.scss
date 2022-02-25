@@ -33,7 +33,8 @@ main {
     a {
         border-radius: 0.35rem;
         margin: 0 0.05rem;
-        color: rgba(255, 255, 255, 0.65);
+        // color: rgba(255, 255, 255, 0.65);
+        color: var(--font-color);
         font-weight: 400;
         font-size: 0.85rem;
         border: 1px solid transparent;
