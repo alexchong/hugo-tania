@@ -29,9 +29,13 @@
             </div>
         </header>
     </article>
-
+    <aside>
+        <h2>Table of Contents</h2>
+        {{ .TableOfContents }}
+    </aside>
     <div class="article-post">
-    {{ .Content }}
+        <h2>Background</h2>    
+        {{ .Content }}
     </div>
 </div>
 
